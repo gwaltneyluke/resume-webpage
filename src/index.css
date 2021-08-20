@@ -1,42 +1,46 @@
 * {
-    margin: 0 auto;
-    font-family: Avenir Next;
-  }
-  
-  .header {
-    border-bottom-style: solid;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .header-detail-table {
-    border-collapse: collapse;
-    border-style: hidden;
-  }
-  
-  .header-detail-row td {
-    border: 1px solid black;
-    padding: 5px;
-  }
-  
-  .experience-type-section {
-    border-bottom-style: solid;
-    padding: 10px;
-  }
-  
-  .experience-type-entry {
-    padding: 5px;
-    position: relative;
-  }
-  
-  .experience-type-entry-setting {
-    padding: 10px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    text-align: right;
-  }
-  
-  .skill-category {
-    font-weight: bold
-  }
+  margin: 0 auto;
+  font-family: Avenir Next;
+}
+
+.header {
+  border-bottom-style: solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header-detail-table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.header-detail-row td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.experience-type-section {
+  border-bottom-style: solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.experience-type-entry {
+  padding: 5px;
+  position: relative;
+}
+
+.experience-type-entry-setting {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+
+.skill-category {
+  font-weight: bold
+}
