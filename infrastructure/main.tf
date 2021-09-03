@@ -31,8 +31,8 @@ resource "aws_s3_bucket" "gwaltney_resume" {
 resource "aws_s3_bucket_object" "resume_html" {
   bucket              = local.bucket_name
   key                 = "index.html"
-  source              = "../src/index.html"
-  etag                = filemd5("../src/index.html")
+  source              = "../public/index.html"
+  etag                = filemd5("../public/index.html")
   acl                 = "public-read"
   content_type        = "text/html"
   content_disposition = "inline"
@@ -41,8 +41,8 @@ resource "aws_s3_bucket_object" "resume_html" {
 resource "aws_s3_bucket_object" "error_html" {
   bucket = local.bucket_name
   key    = "error.html"
-  source = "../src/error.html"
-  etag   = filemd5("../src/error.html")
+  source = "../public/error.html"
+  etag   = filemd5("../public/error.html")
   acl    = "public-read"
 
   content_type        = "text/html"
@@ -52,8 +52,8 @@ resource "aws_s3_bucket_object" "error_html" {
 resource "aws_s3_bucket_object" "resume_css" {
   bucket = local.bucket_name
   key    = "index.css"
-  source = "../src/index.css"
-  etag   = filemd5("../src/index.css")
+  source = "../public/index.css"
+  etag   = filemd5("../public/index.css")
   acl    = "public-read"
 
   content_type        = "text/css"
