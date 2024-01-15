@@ -12,8 +12,8 @@
         <h1 class='header-name'>Luke Gwaltney</h1>
         <table class='header-detail-table'>
           <tr class='header-detail-row'>
-            <td>1619 Oakleaf Lane</td>
-            <td>Pittsburgh, PA 15237</td>
+            <td>3433 Butler Street, Apt. 401</td>
+            <td>Pittsburgh, PA 15201</td>
             <td>(724) 366 8566</td>
             <td>gwaltneyluke@gmail.com</td>
           </tr>
@@ -22,11 +22,13 @@
       <div id='education' class='experience-type-section'>
         <h2>Education</h2>
         <div id='education-entry-1' class='experience-type-entry'>
-          <h3>Pennsylvania State University's Schreyer Honors College</h3>
-          <h4>B.S. in Computer Engineering</h4>
-          <div class='experience-type-entry-setting'>   
-            <h5>University Park, PA</h5>
-            <h5>2014 - 2018</h5>
+          <div class="experience-type-entry-header">
+            <h3>Pennsylvania State University's Schreyer Honors College</h3>
+            <h4>B.S. in Computer Engineering, Minor in Spanish</h4>
+            <div class='experience-type-entry-setting'>   
+              <h5>University Park, PA</h5>
+              <h6>2014 - 2018</h6>
+            </div>
           </div>
           <ul>
             <li>Cumulative GPA: 3.81/4.00</li>
@@ -36,47 +38,68 @@
           </ul>
         </div>
         <!-- <div id='education-entry-2' class='experience-type-entry'>
-          <h3>North Allegheny High School</h3>
-          <h4>High School Diploma</h4>
-          <div class='experience-type-entry-setting'>   
-            <h5>Wexford, PA</h5>
-            <h5>2010 - 2014</h5>
+          <div class="experience-type-entry-header">
+            <h3>North Allegheny High School</h3>
+            <h4>High School Diploma</h4>
+            <div class='experience-type-entry-setting'>   
+              <h5>Wexford, PA</h5>
+              <h5>2010 - 2014</h5>
+            </div>
           </div>
         </div> -->
       </div>
-       <div id='certificates' class='experience-type-section'>
+      <!-- <div id='certificates' class='experience-type-section'>
         <h2>Certificates</h2>
         <div id='certificates-entry-1' class='experience-type-entry'>
-          <h3>Amazon Web Services</h3>
-          <h4>Solutions Architect - Associate</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>Valid February 2020-2023</h5>
+          <div class="experience-type-entry-header">
+            <h3>Amazon Web Services</h3>
+            <h4>Solutions Architect - Associate</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>Valid February 2020-2023</h5>
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div id='work-experience' class='experience-type-section'>
         <h2>Work Experience</h2>
         <div id='work-experience-entry-1' class='experience-type-entry'>
-          <h3>Zoll LifeVest</h3>
-          <h4>Web Applications Engineer II</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>Pittsburgh, PA</h5>
-            <h5>May 2018 - Present</h5>
+          <div class="experience-type-entry-header">
+            <h3>Zoll LifeVest</h3>
+            <h4>Staff Web Applications Engineer</h4>
+            <h4>Web Applications Engineer II</h4>
+            <h4>Web Applications Engineer I</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>Pittsburgh, PA</h5>
+              <h6>August 2022 - Present</h6>
+              <h6>September 2020 - August 2022</h6>
+              <h6>May 2018 - September 2020</h6>
+            </div>
           </div>
           <ul>
-            <li>Develop back-end software for next generation cardiac monitors using the AWS cloud platform, primarily through lambdas written using Node.JS runtime</li>
+            <li>Develop back-end software for next generation cardiac monitors using various AWS services</li>
+            <ul>
+              <li>Codify microservice infrastructures with IaC tools such as AWS CDK, Terraform, Serverless, CloudFormation</li>
+              <li>Handle incoming events using message brokerage / eventbus services like SQS, SNS, EventBridge</li>
+              <li>Write business and transformation logic for incoming cardiac events and reports using Lambda</li>
+              <li>Store transformed data in storage services like S3 and DynamoDB</li>
+              <li>Provide scalable APIs to applications displaying patient data to physicians using API Gateway</li>
+              <li>Host front-end applications written using ReactJS in Docker containers managed by ECS Fargate</li>
+              <li>Manage user sessions and frequently accessed data using Redis hosted by ElastiCache</li>
+            </ul>
             <li>Support and sustain existing internal applications by shadowing clients using the app and gathering feedback on fixes and improvements that will promote efficiency</li>
             <li>Respond to incoming tickets from users of our existing applications in production</li>
-            <li>Serve as scrum master for Agile development team by facilitating daily stand-ups and sprint
+            <li>Served as scrum master for Agile development team by facilitating daily stand-ups and sprint
     planning, refinement, review, and retrospective meetings</li>
           </ul>
         </div>
         <div id='work-experience-entry-1' class='experience-type-entry'>
-          <h3>Honeywell Vocollect</h3>
-          <h4>Software Engineering Intern</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>Pittsburgh, PA</h5>
-            <h5>May-August 2016 & 2017</h5>
+          <div class="experience-type-entry-header">
+            <h3>Honeywell Vocollect</h3>
+            <h4>Software Engineering Intern</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>Pittsburgh, PA</h5>
+              <h6>May-August 2016 & 2017</h6>
+            </div>
           </div>
           <ul>
             <li>Worked on a team developing a voice-driven, cross-platform mobile application designed to enhance retail store inventory management efficiency</li>
@@ -87,11 +110,13 @@
       <div id='activities' class='experience-type-section'>
         <h2>Activities</h2>
         <div id='activities-entry-1' class='experience-type-entry'>
-          <h3>Urban Impact Foundation</h3>
-          <h4>Volunteer</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>Pittsburgh, PA</h5>
-            <h5>2019 - Present</h5>
+          <div class="experience-type-entry-header">
+            <h3>Urban Impact Foundation</h3>
+            <h4>Volunteer</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>Pittsburgh, PA</h5>
+              <h6>2019 - Present</h6>
+            </div>
           </div>
           <ul>
             <li>Serve as middle school outreach basketball coach for children from across Pittsburgh</li>
@@ -100,11 +125,13 @@
           </ul>
         </div>
         <div id='activities-entry-2' class='experience-type-entry'>
-          <h3>Capturing the State of the Ethereum Ecosystem</h3>
-          <h4>Thesis</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>University Park, PA</h5>
-            <h5>2017 - 2018</h5>
+          <div class="experience-type-entry-header">
+            <h3>Capturing the State of the Ethereum Ecosystem</h3>
+            <h4>Thesis</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>University Park, PA</h5>
+              <h6>2017 - 2018</h6>
+            </div>
           </div>
           <ul>
             <li>Researched security analysis tools used to prevent vulnerable smart contracts from compromising the Ethereum blockchain</li>
@@ -112,11 +139,13 @@
           </ul>
         </div>
         <!-- <div id='activities-entry-3' class='experience-type-entry'>
-          <h3>Penn State THON</h3>
-          <h4>Dancer Relations Committee Member</h4>
-          <div class='experience-type-entry-setting'>
-            <h5>University Park, PA</h5>
-            <h5>2016 - 2017</h5>
+          <div class="experience-type-entry-header">
+            <h3>Penn State THON</h3>
+            <h4>Dancer Relations Committee Member</h4>
+            <div class='experience-type-entry-setting'>
+              <h5>University Park, PA</h5>
+              <h6>2016 - 2017</h6>
+            </div>
           </div>
           <ul>
             <li>Participated in year-long awareness and fundraising efforts to support those impacted by childhood cancer, culminating in an annual dance marathon in February</li>
@@ -130,7 +159,7 @@
           <ul>
             <li>
               <label class='skill-category'>Programming Languages:</label> 
-              <text class='skill-category-list'>Javascript, C#, SQL, Python, C, C++, Go, Java</text>
+              <text class='skill-category-list'>Javascript, Python, C#, SQL, C, C++, Go, Java</text>
        
             </li>
             <li>
@@ -139,11 +168,11 @@
             </li>
             <li>
               <label class='skill-category'>Frameworks/Runtimes:</label> 
-              <text class='skill-category-list'>NodeJS & NPM, .NET Core, ASP.NET MVC, React</text>     
+              <text class='skill-category-list'>NodeJS, React, .NET Core, ASP.NET MVC</text>     
             </li>
             <li>
               <label class='skill-category'>Tools:</label> 
-              <text class='skill-category-list'>GitLab, GitHub, Terraform, Serverless, Docker, Octopus Deploy, LaunchDarkly</text>
+              <text class='skill-category-list'>GitLab, GitHub, AWS CDK, Terraform, Serverless, Docker, Octopus Deploy, LaunchDarkly</text>
             </li>
           </ul>
         </div>

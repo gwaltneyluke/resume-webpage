@@ -33,6 +33,10 @@
   position: relative;
 }
 
+.experience-type-entry-header {
+  padding-bottom: 5px;
+}
+
 .experience-type-entry-setting {
   padding: 10px;
   position: absolute;
@@ -58,11 +62,20 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: normal;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
 }
 
 li, td {
